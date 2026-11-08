@@ -1,0 +1,21 @@
+{
+  "name": "smart-campus-root",
+  "version": "1.0.0",
+  "description": "Smart Campus - College Event Management & Job Application Portal",
+  "scripts": {
+    "dev:backend": "cd backend && node src/server.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && node src/utils/seedData.js",
+    "test:api": "cd backend && node src/utils/testApi.js",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "mern",
+    "smart-campus",
+    "events",
+    "jobs",
+    "ai-chatbot"
+  ],
+  "author": "Smart Campus Development Team",
+  "license": "ISC"
+}
